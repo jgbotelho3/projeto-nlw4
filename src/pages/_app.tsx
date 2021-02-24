@@ -1,15 +1,18 @@
-import Head from 'next/head'
-import '../styles/globals.css'
+import Head from "next/head";
+import { ChallengeProvider } from "../context/ChallengesContext";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return(
+  return (
     <>
       <Head>
         <title>Move it</title>
       </Head>
-      <Component {...pageProps} />
+      <ChallengeProvider>
+        <Component {...pageProps} />
+      </ChallengeProvider>
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
