@@ -1,11 +1,11 @@
 
 
 <h1 align="center">
-  Real-time chat 
+  Move it
 </h1>
 
 <h3 align="center">
-    Realtime chat with laravel and VueJS
+    Projeto desenvolvido na semana NLW
 </h3> 
 
 ## :heart: 2 minutes quick start
