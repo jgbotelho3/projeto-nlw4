@@ -8,9 +8,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Move it</title>
       </Head>
-      <ChallengeProvider>
-        <Component {...pageProps} />
-      </ChallengeProvider>
+      <Component {...pageProps} />
     </>
   );
 }
