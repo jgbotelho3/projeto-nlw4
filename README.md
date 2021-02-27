@@ -20,7 +20,7 @@ yarn dev
 ```
 Open http://localhost:3000 with your browser to see the result.
 
-![Picture]("https://github.com/jgbotelho3/projeto-nlw4/blob/develop/public/pic.png")
+![Picture](https://github.com/jgbotelho3/projeto-nlw4/blob/develop/public/pic.png)
 
 <br>
 
